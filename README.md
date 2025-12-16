@@ -142,66 +142,67 @@ Optimization
 # 9. 🔁 Reproducibility
 
 Gunakan environment:
-Environment
-Python: 3.12
-Operating System: Windows / Linux / macOS
+- Environment
+- Python: 3.12
+- Operating System: Windows / Linux / macOS
 
 Dependencies
-numpy==1.24.3
-pandas==2.0.3
-scikit-learn==1.3.0
-matplotlib==3.7.2
-seaborn==0.12.2
-tensorflow==2.14.0
+- numpy==1.24.3
+- pandas==2.0.3
+- scikit-learn==1.3.0
+- matplotlib==3.7.2
+- seaborn==0.12.2
+- tensorflow==2.14.0
 
 # 🚀 10. Cara Menjalankan Proyek
 Panduan berikut menjelaskan cara menjalankan proyek klasifikasi status batu empedu baik secara lokal maupun menggunakan Google Colab.
 
 Clone Repository
-git clone https://github.com/ininduu/DataScience-BankCampaign-.git
-cd DataScience-BankCampaign
+- git clone https://github.com/ininduu/DataScience-BankCampaign-.git
+- cd DataScience-BankCampaign
 
 Create Virtual Environment (Opsional)
-Linux / macOS
-python3 -m venv venv
-source venv/bin/activate
+- Linux / macOS
+- python3 -m venv venv
+- source venv/bin/activate
 
 Windows
-python -m venv venv
-venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 Install Dependencies
-pip install -r requirements.txt
-Download Dataset
+- pip install -r requirements.txt
+- Download Dataset
 
 Unduh dataset dari Kaggle:
-https://archive.ics.uci.edu/dataset/222/bank+marketing
+- https://archive.ics.uci.edu/dataset/222/bank+marketing
 
 Simpan sebagai:
-bank_.csv
+- bank_.csv
 
 Running the Project
-Option 1: Script Modular
-python src/Download dan Load Dataset.py
-python src/Exploratory Data Analysis (EDA).py
-python src/Data Cleaning.py
-python src/Feature Engineering.py
-python src/Data Splitting.py
-python src/Data Transformation.py
-python src/Modeling.py
-Output model:
+- Option 1: Script Modular
+- python src/Download dan Load Dataset.py
+- python src/Exploratory Data Analysis (EDA).py
+- python src/Data Cleaning.py
+- python src/Feature Engineering.py
+- python src/Data Splitting.py
+- python src/Data Transformation.py
+- python src/Modeling.py
 
+- Output model:
 models/
 ├── logistic_regression_model.pkl
 ├── gradient_boosting_model.pkl
 └── mlp_deep_learning_model.h5
-Option 2: Jupyter Notebook
+
+- Option 2: Jupyter Notebook
 jupyter notebook
 Buka:
+- notebooks/UAS_234311053_Rizqi.AS.ipynb
+- Option 3: Google Colab
+- Buka https://colab.research.google.com
+- Upload notebook UAS_234311053_Rizqi A.S.ipynb
 
-notebooks/UAS_234311056_WIDYA_WULANDARI.ipynb
-Option 3: Google Colab
-Buka https://colab.research.google.com
-Upload notebook UAS_234311053_Rizqi A.S.ipynb
 Run All
 Estimasi waktu: 10–15 menit
