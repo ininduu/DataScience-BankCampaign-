@@ -191,10 +191,12 @@ Running the Project
 - python src/Modeling.py
 
 - Output model:
+```
 models/
 ├── logistic_regression_model.pkl
 ├── gradient_boosting_model.pkl
 └── mlp_deep_learning_model.h5
+```
 
 - Option 2: Jupyter Notebook
 jupyter notebook
