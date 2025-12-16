@@ -1,0 +1,83 @@
+# ================================
+# Python
+# ================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+.env/
+.env.*
+
+# ================================
+# Jupyter Notebook
+# ================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ================================
+# Dataset & Data Files
+# (Data klinis sebaiknya tidak di-push)
+# ================================
+data/
+*.csv
+*.xlsx
+*.xls
+
+# ================================
+# Trained Models
+# ================================
+models/
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+
+# ================================
+# Logs & Temporary Files
+# ================================
+*.log
+*.tmp
+*.temp
+
+# ================================
+# OS / Editor Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm / IntelliJ
+.idea/
+
+# ================================
+# Cache & Build
+# ================================
+.cache/
+build/
+dist/
+*.egg-info/
+
+# ================================
+# Test / Coverage
+# ================================
+.coverage
+htmlcov/
+
+# ================================
+# API / Deployment
+# ================================
+*.sqlite3
+*.db
+
+# ================================
+# Misc
+# ================================
+*.zip
+*.tar.gz
