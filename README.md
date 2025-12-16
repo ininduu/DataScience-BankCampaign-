@@ -154,7 +154,7 @@ matplotlib==3.7.2
 seaborn==0.12.2
 tensorflow==2.14.0
 
-🚀 10. Cara Menjalankan Proyek
+# 🚀 10. Cara Menjalankan Proyek
 Panduan berikut menjelaskan cara menjalankan proyek klasifikasi status batu empedu baik secara lokal maupun menggunakan Google Colab.
 
 Clone Repository
