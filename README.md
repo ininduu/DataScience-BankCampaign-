@@ -99,9 +99,9 @@ project/
 ### Hasil Singkat
 | Model | Score | Catatan |
 |-------|--------|---------|
-| Baseline | 0.65 % | |
-| Advanced | 0.76 % | |
-| Deep Learning | 0.87 % | |
+| Baseline | 0.65 % | Model dasar sebagai pembanding |
+| Advanced | 0.76 % | Model memiliki akurasi 76 % dan mampu mengenali pola target dengan baik|
+| Deep Learning | 0.87 % | Akurasi baik namun model masih kurang dalam membaca target |
 
 ---
 
@@ -125,14 +125,14 @@ project/
  - [x] Transfer learning dengan model yang lebih besar
  
 - Deployment
-- [] Membuat API (Flask/FastAPI)
-- [] Membuat web application (Streamlit/Gradio)
-- [] Containerization dengan Docker
-- [] Deploy ke cloud (Heroku, GCP, AWS)
+- [ ] Membuat API (Flask/FastAPI)
+- [ ] Membuat web application (Streamlit/Gradio)
+- [ ] Containerization dengan Docker
+- [ ] Deploy ke cloud (Heroku, GCP, AWS)
  
 - Optimization
-- [] Model compression (pruning, quantization)
-- [] Improving inference speed
+- [ ] Model compression (pruning, quantization)
+- [ ] Improving inference speed
 - [x] Reducing model size
 
 ---
