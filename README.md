@@ -113,29 +113,27 @@ project/
 ---
 
 # 8. 🔮 Future Work
-
+- Data
+  [x] Mengumpulkan lebih banyak data
+  [x] Menambah variasi data
+  [x] Feature engineering lebih lanjut
  
-Data
- [x] Mengumpulkan lebih banyak data
- [x] Menambah variasi data
- [x] Feature engineering lebih lanjut
+- Model
+  [x] Mencoba arsitektur DL yang lebih kompleks
+  [x] Hyperparameter tuning lebih ekstensif
+  [x] Ensemble methods (combining models)
+  [x] Transfer learning dengan model yang lebih besar
  
-Model
- [x] Mencoba arsitektur DL yang lebih kompleks
- [x] Hyperparameter tuning lebih ekstensif
- [x] Ensemble methods (combining models)
- [x] Transfer learning dengan model yang lebih besar
+- Deployment
+  [] Membuat API (Flask/FastAPI)
+  [] Membuat web application (Streamlit/Gradio)
+  [] Containerization dengan Docker
+  [] Deploy ke cloud (Heroku, GCP, AWS)
  
-Deployment
- [] Membuat API (Flask/FastAPI)
- [] Membuat web application (Streamlit/Gradio)
- [] Containerization dengan Docker
- [] Deploy ke cloud (Heroku, GCP, AWS)
- 
-Optimization
- [] Model compression (pruning, quantization)
- [] Improving inference speed
- [x] Reducing model size
+- Optimization
+  [] Model compression (pruning, quantization)
+  [] Improving inference speed
+  [x] Reducing model size
 
 ---
 
