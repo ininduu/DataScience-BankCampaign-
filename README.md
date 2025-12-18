@@ -87,7 +87,7 @@ project/
 ---
 
 # 5. 🤖 Modeling
-- **Model 1 – Baseline:** Logisti Regression 
+- **Model 1 – Baseline:** Logistic Regression 
 - **Model 2 – Advanced ML:** Random Forest
 - **Model 3 – Deep Learning:** MLP
 
